@@ -9,3 +9,21 @@ $(window).scroll(function (event) {
   }
 
 });
+
+
+/* -----------------------------
+Slider Testimonial Section
+----------------------------- */
+
+$(document).ready(function() {
+
+  'use strict';
+
+  $('.testimonial-slider').bxSlider({
+    pagerCustom: '#bx-pager',
+    pager: true,
+    touchEnabled: true,
+    controls: false
+  });
+
+});

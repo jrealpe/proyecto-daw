@@ -1,60 +1,102 @@
-/* DOC */
-body {
+/* ================ Body ================ */
 
+body {
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 
+/* ================ Header ================ */
 
-/* MENU */
-
-  /* MENU TOP */
 header > nav:first-child {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0);
   transition: all 250ms linear 0s;
+  padding: 10px 15px;
 }
-header > nav:first-child > div.container-fluid > div > a {
+
+header > nav:first-child > div.container > div > a > img {
+  margin-left: 30%;
+}
+
+header > nav:first-child > div.container > div > a {
+  font-family: 'Norican', cursive;
   color: rgb(0,0,0);
-  font-weight: bold;
-  font-style: oblique;
+  font-size: 2em;
+  padding-top: 0px;
 }
 
-header > nav:first-child > div.container-fluid > div > ul.nav > li > a {
+header > nav:first-child > div.container > div > a:hover {
+  color: rgb(255,255,255);
+}
+
+header > nav:first-child > div.container > div > ul.nav {
+  margin-top: 2%;
+}
+
+header > nav:first-child > div.container > div > ul.nav > li > a {
   color: rgb(0,0,0);
+  font-size: 1.2em;
 }
 
-header > nav:first-child > div.container-fluid > div > ul.nav > li > a:hover {
-  color: rgba(0,0,0,0.5);
-  text-decoration: underline;
+header > nav:first-child > div.container > div > ul.nav > li > a:hover {
+  color: rgba(0,0,0,0.3);
 }
 
-  /* MENU SCROLL */
+
 header > nav.menu-active {
+  box-shadow: 0px 2px 5px rgba(255,255,255,0.5);
   background-color: rgba(0, 0, 0, 0.8);
   transition: all 300ms linear 0s;
 }
 
-header > nav.menu-active > div.container-fluid > div > a,
-header > nav.menu-active div.container-fluid > div > ul.nav > li > a{
+header > nav.menu-active > div.container > div > a,
+header > nav.menu-active div.container > div > ul.nav > li > a{
   color: rgb(255,255,255);
 }
 
-header > nav.menu-active > div.container-fluid > div > ul.nav > li > a:hover {
-  color: rgba(255,255,255,0.5);
-  text-decoration: underline;
+header > nav.menu-active > div.container > div > ul.nav > li > a:hover {
+  color: rgba(255,255,255,0.6);
 }
 
 
+/* ================ Footer ================ */
 
-/* CAROUSEL */
-
-  /* SLOGAN */
-section > div#carousel > div.carousel-inner > div.carousel-caption {
-  padding-bottom: 25%;
-  text-shadow: 1px 1px #000;
+footer {
+  background-color: rgba(0,0,0,0.9);
+  border-top: solid 1px rgba(255,255,255,0.5);
+  color: rgb(255,255,255);
 }
 
-div#carousel > div#carousel-inner {
-  max-height: 700px;
-  width: 100%;
+footer div.footer-top {
+  padding: 40px 0px;
+}
+
+footer div.footer-menu > ul > li{
+  border-bottom: 1px dashed #555;
+  padding: 10px 0;
+}
+
+footer div.social-icons > ul > li > a {
+  color: rgb(255,255,255);
+  float: left;
+}
+
+footer div.footer-menu > ul > li > a {
+  color: rgb(255,255,255);
+}
+
+footer div.social-icons ul {
+  margin-top: 50%;
+}
+
+footer div.social-icons ul,
+footer div.footer-menu ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer div.footer-bottom {
+  box-shadow: 0px -2px 5px rgba(255,255,255,0.5);
+  padding: 20px 0px;
+  text-align: center
 }

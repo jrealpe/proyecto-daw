@@ -4,17 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- GOOGLE FONTS -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Norican" rel="stylesheet">
+
   <!-- CDN CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/home.css" rel="stylesheet"/>
+
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navbar">
             <span class="icon-bar"></span>
@@ -22,15 +30,14 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            FERNWEH
-            <!--<img src="img/logo.jpg">-->
+            <img src="img/logo.png" width="45px" height="45px">
+            FernWeh
           </a>
         </div>
         <div class="collapse navbar-collapse" id="#menu-navbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">INICIO</a></li>
-            <li><a href="#">GALERÍA</a></li>
-            <li><a href="#">RUTAS</a></li>
+            <li><a href="routes.html">RUTAS</a></li>
             <li><a href="#">MÁS VISITADOS</a></li>
             <li><a href="#">RECOMENDACIONES</a></li>
             <li><a href="#">LOGIN</a></li>
@@ -40,7 +47,7 @@
     </nav>
   </header>
 
-  <section>
+  <section id="slider">
     <div id="carousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -81,11 +88,198 @@
     </div>
   </section>
 
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h1>¿Qué es FernWeh?</h1>
+        <div class="col-sm-12 col-md-6 col-lg-6 pull-left">
+          <div class="row-fluid">
+            <img src="img/ic-route.png" class="col-md-2">
+            <div class="col-md-10">
+              <p>FernWeh es una plataforma <b>hecha por y para mochileros</b> aquí podrás <b>encontrar, crear y compartir tus propias experiencia, rutas de viaje de manera fácil y rápida.</b> Todo viaje será tan comodo que querrás repetirlo.
+              </p>
+            </div>
+          </div>
+          <div class="row-fluid clearfix">
+            <img src="img/ic-gallery.png" class="col-md-2">
+            <div class="col-md-10">
+              <p><b>Añade tus historias, fotos, videos, notas</b> a tu ruta para <b>guiarte</b> a detalle de <b>cada paso.</b>
+              </p>
+            </div>
+          </div>
+          <div class="row-fluid clearfix">
+            <img src="img/ic-search.png" class="col-md-2">
+            <div class="col-md-10"><p>Además, podrás también <b>consultar rutas de viaje hechas por otros mochileros</b> de la plataforma para que puedas conocer un poco más antes de viajar y vivir tu experiencia.</p>
+            </div>
+          </div>
+        </div>
+<!--
+          <ul>
+            <li>
+              <img>
+              <p>
+                Koatlas es una plataforma creada por y para viajeros con la que podrás crear y compartir tus propias rutas de viaje de manera sencilla y ágil y así planificar tu viaje de manera más cómoda.
+              </p>
+            </li>
+            <li>
+              <img>
+              <p>
+                Añade, fotos, videos, notas o gastos asociados a tu ruta para no perderte detalle de nada.
+              </p>
+            </li>
+            <li>
+              <img>
+              <p>
+                Además, también podrás consultar rutas de viaje creadas por otros usuarios de la plataforma para que puedas tomar ideas para la tuya.
+              </p>
+            </li>
+          </ul>
+        </div>
+-->
+
+        <div class="col-sm-12 col-md-6 col-lg-6 pull-right">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5m16_OBAaJ8" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="explore">
+    <div align="center">
+      <h1>¿Estás listo para tu siguiente aventura?</h1>
+      <div class="explore-options">
+        <a>Crear un Viaje</a>
+        <a>Buscar Destino</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="section-testimonials" class="testimonials-wrap">
+    <div class="section-overlay"></div>
+    <div class="container testimonials center animated" data-animation="rollIn" data-animation-delay="500">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="testimonial-slider">
+
+            <!-- CEO Testimonial -->
+            <div class="testimonial">
+              <p class="comment">
+                Todo comenzó con un sueño, los viajes, los sueños y la ganas de tener todo en solo lugar llevo a realizar y formar FernWeb. La constancia y la excelencia llevo a reunir a grandes personas y profesionales para trabajar en la plataforma de mi vida.
+              </p>
+
+              <h5 class="happy-client">Julio Realpe</h5>
+              <span class="client-info">CEO de FernWeh Corp.</span>
+            </div>
+
+            <!-- Developer Testimonial -->
+            <div class="testimonial">
+              <p class="comment">
+                El arduo trabajo realizado por los desarrolladores fue liderado por el mas grande desarrollador de FernWeb. Dando a conocer todo su conocimiento en el area web y su creatividad, logrando alcanzar la meta deseada.
+              </p>
+
+              <h5 class="happy-client">Ramón Carrillo</h5>
+              <span class="client-info">Desarrollador de FernWeh Corp.</span>
+            </div>
+
+          </div>
+          <div id="bx-pager" class="client-photos">
+            <a data-slide-index="0" href="" class="photo-hold">
+              <span class="photo-bg">
+                <img src="img/jrealpe.jpg" alt="" /> <!-- Client photo 1 -->
+              </span>
+            </a>
+            <a data-slide-index="1" href="" class="photo-hold">
+              <span class="photo-bg">
+                <img src="img/rcarrillo.jpg" alt="" /> <!-- Client photo 2 -->
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="footer-menu">
+                <h2>Acerca de FernWeh</h2>
+                <ul>
+                    <li><a href="#">¿Quienes Somos?</a></li>
+                    <li><a href="#">¿Como Contar?</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Privacidad y Seguridad</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="footer-menu">
+                <h2>Explora</h2>
+                <ul>
+                    <li><a href="#">Escribe tu historia</a></li>
+                    <li><a href="#">Únete</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="footer-menu">
+                <h2>Mi Cuenta</h2>
+                <ul>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Lista de Ordenes</a></li>
+                    <li><a href="#">Direcciones</a></li>
+                    <li><a href="#">List de Deseos</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-2">
+            <div class="social-icons " align="center">
+              <h2>Siguenos</h2>
+              <ul>
+                <li class="youtube"><a href="https://www.facebook.com" rel="tooltip"><img alt="youtube" src="img/icon-you.png"></a></li></a></li>
+                <li class="instagram"><a href="https://www.instagram.com" title="instagram" ><img alt="instagram" src="img/icon-ins.png"></a></li>
+                <li class="twitter"><a href="https://twitter.com" rel="tooltip" title="twitter"><img alt="twitter" src="img/icon-tw.png"></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/ExpresoEc" title="facebook"><img alt="facebook" src="img/icon-fb.png"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="copyright">
+              <h5>© 2017 FernWeh. Todos los derechos reservados.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
   <!-- CDN JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- CUSTOM JS -->
+  <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/main.js"></script>
 
 </body>

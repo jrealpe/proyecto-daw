@@ -1,0 +1,163 @@
+/* ================ Carousel Section ================ */
+
+section#slider > div#carousel > div.carousel-inner > div.carousel-caption {
+  padding-bottom: 25%;
+  text-shadow: 1px 1px #000;
+  font-weight: bold;
+}
+
+section#slider > div#carousel > div#carousel-inner {
+  max-height: 700px;
+  width: 100%;
+}
+
+
+
+/* ================ About Section ================ */
+
+section#about {
+  padding: 40px 0px;
+}
+
+section#about h1 {
+  text-align: center;
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+section#about img {
+  padding-left: 0px;
+}
+
+section#about div.row-fluid {
+  margin:10px 0px;
+}
+
+
+
+/* ================ Explorer Section ================ */
+
+section#explore {
+  max-height: 700px;
+  background: url('../img/explore.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
+}
+
+section#explore div {
+  margin-top: 10%;
+}
+
+section#explore h1 {
+  color: rgb(255,255,255);
+}
+
+section#explore div.explore-options {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+section#explore div.explore-options a {
+  background-color: rgba(0,0,0,0.8);
+  color: rgb(255,255,255);
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 1.3em;
+  border: solid 1px rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+section#explore div.explore-options a:hover {
+  cursor: pointer;
+  background-color: rgba(65,105,225,0.8);
+  border: solid 1px rgba(0,0,0,0.5);
+}
+
+
+/* ================ Testimonials Section ================ */
+
+#section-testimonials {
+  color:#e5e5e5;
+}
+
+.testimonials-wrap {
+  position:relative;
+}
+
+.testimonials {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.testimonials .comment {
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+.testimonial .happy-client {
+  display: table;
+  border-bottom: 1px solid;
+  max-width: 280px;
+  font-weight: 400;
+  margin: 0 auto 5px;
+}
+
+.testimonial .client-info {
+  font-size: 14px;
+}
+
+#bx-pager {
+  margin-top: 48px;
+}
+
+.client-photos .photo-hold {
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.client-photos .photo-bg {
+  background: #000;
+  display: block;
+}
+
+.client-photos img {
+  opacity: .4;
+}
+
+.client-photos .active img {
+  opacity: 1;
+}
+
+section#section-testimonials div.testimonial {
+  color: rgb(0,0,0);
+}
+
+section#section-testimonials .center {
+  text-align: center;
+}
+
+section#section-testimonials #bx-pager {
+  margin-top: 48px;
+}
+
+
+section#section-testimonials img {
+  max-width: 100%;
+  height: auto;
+}
+
+section#section-testimonials div.client-photos a {
+  border-color: rgba(0,0,0,0.8);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+
+
