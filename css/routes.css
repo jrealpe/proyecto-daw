@@ -1,0 +1,22 @@
+section {
+  padding: 40px 0px;
+  margin: 40px 0px;
+}
+
+section h1,
+section div#gallery {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+section article {
+  margin: 20px;
+}
+
+section div#gallery img {
+  max-width: 400px;
+  max-height: 200px;
+
+  min-width: 400px;
+  min-height: 200px;
+}

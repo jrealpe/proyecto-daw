@@ -1,0 +1,335 @@
+[
+  {
+    "route": "Paris",
+    "thumb": "img/routes/route_1",
+    "description": "París está situado en el norte de Francia, en el centro de la cuenca parisina. La ciudad es atravesada por el río Sena. En el centro de la ciudad destacan dos islas que constituyen su parte más antigua, Île Saint-Louis y la Isla de la Cité.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Groenlandía",
+    "thumb": "img/routes/route_2",
+    "description": "Groenlandia (en groenlandés: Kalaallit Nunaat, en danés: Grønland) es una gran isla ubicada en la zona nororiental de América del Norte, entre el océano Atlántico y el océano Glacial Ártico, políticamente constituida como una región autónoma perteneciente al Reino de Dinamarca.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "India",
+    "thumb": "img/routes/route_3",
+    "description": "La India8 ―oficialmente República de la India (en hindi, भारत गणराज्य, Bhārat Gaṇarājya; en inglés, Republic of India)― es un país ubicado en el sur de Asia. Con sus más de 1240 millones de habitantes, es el segundo país del mundo por población ―después de la República Popular China (con 1370 millones) y la democracia más populosa del mundo―.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Rusia",
+    "thumb": "img/routes/route_4",
+    "description": "La Federación Rusa se extiende a través de la mayor parte del norte del supercontinente Eurasia por lo que existen una gran variedad de paisajes y climas. La mayor parte del paisaje consiste en llanuras enormes, tanto en la parte europea como en la parte asiática que son ampliamente conocidas como Siberia.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Chile",
+    "thumb": "img/routes/route_5",
+    "description": "Chile es un país de América ubicado en el extremo sudoeste de América del Sur. Su nombre oficial es República de Chile y su capital es la ciudad de Santiago.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "California",
+    "thumb": "img/routes/route_6",
+    "description": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos de América. Su capital es Sacramento y su ciudad más poblada, Los Ángeles.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Egipto",
+    "thumb": "img/routes/route_7",
+    "description": "Egipto, oficialmente la República Árabe de Egipto (en árabe: جمهوريّة مصرالعربيّة Ŷumhūriyyat Miṣr Al-ʿArabiyyah, pronunciado en dialecto egipcio: [Maṣr]), es un país soberano de África en la parte más occidental del Máshrek.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Brasil",
+    "thumb": "img/routes/route_8",
+    "description": "Brasil, oficialmente República Federativa de Brasil (en portugués: República Federativa do Brasil), es un país soberano de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  },
+  {
+    "route": "Roma",
+    "thumb": "img/routes/route_9",
+    "description": "Roma es una ciudad y capital italiana, de 2 872 082 habitantes, capital de la Ciudad metropolitana de Roma Capital, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea.",
+    "gallery": [
+      {
+        "image": "img/routes/route_1.jpg"
+      },
+      {
+        "image": "img/routes/route_3.jpg"
+      },
+      {
+        "image": "img/routes/route_5.jpg"
+      },
+      {
+        "image": "img/routes/route_7.jpg"
+      },
+      {
+        "image": "img/routes/route_9.jpg"
+      },
+      {
+        "image": "img/routes/route_11.jpg"
+      },
+      {
+        "image": "img/routes/route_13.jpg"
+      },
+      {
+        "image": "img/routes/route_15.jpg"
+      },
+      {
+        "image": "img/routes/route_17.jpg"
+      },
+      {
+        "image": "img/routes/route_20.jpg"
+      }
+    ]
+  }
+]
